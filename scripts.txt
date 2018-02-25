@@ -1,0 +1,10 @@
+CREATE TABLE `practicejdbc`.`students2` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `pib` VARCHAR(45) NOT NULL,
+  `course` INT NOT NULL);
+CREATE TABLE `practicejdbc`.`students2` (
+  `teacherid` INT NOT NULL AUTO_INCREMENT,
+  `firstname` VARCHAR(45) NOT NULL,
+  `lastname` VARCHAR(45) NOT NULL,
+  `birth_date` DATE NOT NULL,
+  `cell_phone` VARCHAR(45) NOT NULL);
